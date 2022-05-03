@@ -1,0 +1,51 @@
+body {
+  background-color: #3ea9f5;
+}
+
+.wrapper {
+  display: flex;
+  width: 600px;
+  margin: 150px auto;
+}
+input {
+  margin: 10px;
+}
+#input1,
+#input2,
+#input3,
+#input4,
+#input5,
+#input6 {
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+}
+
+#radio1,
+#radio2 {
+  display: block;
+}
+
+label {
+  margin-top: 20px;
+  color: white;
+}
+
+#checkbox {
+  display: block;
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+#btn {
+  border: 1px transparent;
+  color: white;
+  background-color: #28d2d0;
+  margin-top: 20px;
+  padding: 25px 210px;
+  font-size: 20px;
+  font-weight: 500;
+}
