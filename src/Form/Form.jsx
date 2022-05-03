@@ -33,15 +33,15 @@ class Form extends Component {
   passconfChange = (event) => {
     this.setState({ passconf: event.target.value });
   };
-  leSubmit = (event) => {
-    alert("Отправленное имя: " + this.state.value);
-    event.preventDefault();
+
+  clearForm = () => {
+    this.setState((this.state = null));
   };
 
   render() {
     return (
       <div className="wrapper">
-        <form onSubmit={this.handleSubmit}>
+        <form>
           <input
             id="input1"
             type="text"
@@ -115,7 +115,13 @@ class Form extends Component {
             Allow Squadhelp to send marketing/promotional offers from time to
             time
           </span>
-          <input onSubmit={console.log(this.state)} id="btn" type="submit" value="Create account" />
+          <input
+            onSubmit={console.log(this.state)}
+            onClick={this.clearForm}
+            id="btn"
+            type="submit"
+            value="Create account"
+          />
         </form>
       </div>
     );

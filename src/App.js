@@ -4,12 +4,11 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return( 
+    return (
       <div className="wrapper">
-         <Form />
+        <Form />
       </div>
-
-    )
+    );
   }
 }
 
