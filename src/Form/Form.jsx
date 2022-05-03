@@ -115,7 +115,7 @@ class Form extends Component {
             Allow Squadhelp to send marketing/promotional offers from time to
             time
           </span>
-          <input id="btn" type="submit" value="Create account" />
+          <input onSubmit={console.log(this.state)} id="btn" type="submit" value="Create account" />
         </form>
       </div>
     );
