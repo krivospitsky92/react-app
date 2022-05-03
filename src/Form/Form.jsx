@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from './header/Header';
 import "./form.css";
 
 class Form extends Component {
@@ -40,7 +41,8 @@ class Form extends Component {
 
   render() {
     return (
-      <div className="wrapper">
+      <div className="wrapper-form">
+          <Header />
         <form>
           <input
             id="input1"

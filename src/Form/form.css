@@ -7,6 +7,10 @@ body {
   width: 600px;
   margin: 150px auto;
 }
+.header-wrapper {
+  text-align: center;
+  color: white;
+}
 input {
   margin: 10px;
 }
@@ -16,7 +20,7 @@ input {
 #input4,
 #input5,
 #input6 {
-  width: 250px;
+  width: 270px;
   height: 50px;
   margin: 10px;
 }
@@ -45,7 +49,7 @@ span {
   color: white;
   background-color: #28d2d0;
   margin-top: 20px;
-  padding: 25px 210px;
+  padding: 25px 230px;
   font-size: 20px;
   font-weight: 500;
 }
