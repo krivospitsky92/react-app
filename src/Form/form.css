@@ -8,6 +8,7 @@ body {
   margin: 150px auto;
 }
 .header-wrapper {
+  font-size: 25px;
   text-align: center;
   color: white;
 }
